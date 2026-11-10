@@ -1,0 +1,54 @@
+# Build output
+target/
+out/
+bin/
+dist/
+
+# Compiled files
+*.class
+
+# Local database files
+data/
+*.db
+*.mv.db
+*.trace.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+application-local.properties
+application-*.local.properties
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse / STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
